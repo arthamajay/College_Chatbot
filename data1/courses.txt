@@ -1,0 +1,121 @@
+CVR College of Engineering
+
+Courses Offered for Academic Year 2025-26
+
+B.Tech Programs
+
+Civil Engineering
+- Intake: 60 Seats
+
+Computer Science and Business Systems (CSBS)
+- Intake: 60 Seats
+
+Computer Science and Engineering (CSE)
+- Intake: 660 Seats
+
+Computer Science and Engineering (Artificial Intelligence and Machine Learning)
+- Intake: 240 Seats
+
+Computer Science and Engineering (Data Science)
+- Intake: 240 Seats
+
+Computer Science and Engineering (Cyber Security)
+- Intake: 180 Seats
+
+Electronics and Communication Engineering (ECE)
+- Intake: 120 Seats
+
+Electronics Engineering (VLSI Design and Technology)
+- Intake: 60 Seats
+
+Electrical and Electronics Engineering (EEE)
+- Intake: 60 Seats
+
+Electronics and Instrumentation Engineering (EIE)
+- Intake: 60 Seats
+
+Information Technology (IT)
+- Intake: 120 Seats
+
+Mechanical Engineering
+- Intake: 60 Seats
+
+
+Minor Degree Programs
+
+Available Minor Programs:
+- Artificial Intelligence and Machine Learning (AI&ML)
+- Cyber Security (CS)
+- Data Science (DS)
+- Internet of Things (IoT)
+
+Eligibility:
+- Available to B.Tech students from the third year onwards.
+- Students must complete 160 credits in the major program and 18 additional credits to earn a Minor Degree.
+- Students enrolled in AI&ML, Cyber Security, or Data Science majors may choose another minor specialization.
+
+Minor Degree Combinations
+
+Civil Engineering:
+- Minor in AI&ML
+- Minor in Cyber Security
+- Minor in Data Science
+- Minor in IoT
+
+Electrical and Electronics Engineering:
+- Minor in AI&ML
+- Minor in Cyber Security
+- Minor in Data Science
+- Minor in IoT
+
+Electronics and Communication Engineering:
+- Minor in AI&ML
+- Minor in Cyber Security
+- Minor in Data Science
+- Minor in IoT
+
+Electronics Engineering (VLSI Design and Technology):
+- Minor in AI&ML
+- Minor in Cyber Security
+- Minor in Data Science
+- Minor in IoT
+
+Electronics and Instrumentation Engineering:
+- Minor in AI&ML
+- Minor in Cyber Security
+- Minor in Data Science
+- Minor in IoT
+
+Mechanical Engineering:
+- Minor in AI&ML
+- Minor in Cyber Security
+- Minor in Data Science
+- Minor in IoT
+
+
+M.Tech Programs
+
+Artificial Intelligence
+- Intake: 18 Seats
+
+Data Sciences
+- Intake: 18 Seats
+
+Electrical Power Engineering
+- Intake: 18 Seats
+
+Embedded Systems
+- Intake: 18 Seats
+
+Structural Engineering
+- Intake: 18 Seats
+
+VLSI Design
+- Intake: 18 Seats
+
+
+Ph.D Programs
+
+Research Centres:
+- Computer Science and Engineering (CSE)
+- Electronics and Communication Engineering (ECE)
