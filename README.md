@@ -188,35 +188,63 @@ python -c "import streamlit; import fastapi; import langchain; print('All depend
 
 ## Configuration
 
-### Step 1: Create `config.json`
+### Step 1: Create `.env`
 
-Create a file named `config.json` in the project root directory:
+Create a file named `.env` in the project root directory:
 
 ```bash
 # Windows
-echo {} > config.json
+echo. > .env
 
 # macOS/Linux
-touch config.json
+touch .env
 ```
 
-### Step 2: Add API Keys
+### Step 2: Add Environment Variables
 
-Edit `config.json` and add your Groq API key:
+Edit the `.env` file and add your Groq API key and college name:
 
-```json
-{
-  "GROQ_API_KEY": "gsk_your_actual_api_key_here",
-  "COLLEGE_NAME": "Your College Name"
-}
+```env
+GROQ_API_KEY=gsk_your_actual_api_key_here
+COLLEGE_NAME=CVR College of Engineering
 ```
 
-**Important**: 
-- Replace `gsk_your_actual_api_key_here` with your actual Groq API key
-- Replace `Your College Name` with your college's actual name
-- **Never commit `config.json` to version control** - add it to `.gitignore`
+### Important
 
-### Step 3: Update College Name Throughout Code
+* Replace `gsk_your_actual_api_key_here` with your actual Groq API key.
+* Replace `CVR College of Engineering` with your college name if different.
+* Never commit `.env` to version control.
+* Add `.env` to your `.gitignore` file.
+
+### Step 3: Install Dependencies
+
+```bash
+pip install python-dotenv
+```
+
+### Step 4: Load Environment Variables
+
+Use the following code in your Python files:
+
+```python
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+COLLEGE_NAME = os.getenv("COLLEGE_NAME")
+```
+
+### Add to `.gitignore`
+
+```gitignore
+.env
+venv/
+__pycache__/
+```
+
+### Step 5: Update College Name Throughout Code
 
 The codebase contains placeholder text `"College Name"` that should be replaced with your actual college name. Key files:
 
@@ -230,7 +258,7 @@ Find:    "College Name"
 Replace: "Your Actual College Name"
 ```
 
-### Step 4: (Optional) Configure Tesseract Path
+### Step 6: (Optional) Configure Tesseract Path
 
 If using scanned PDFs with OCR, update the Tesseract path in `vectorize_documents.py`:
 
